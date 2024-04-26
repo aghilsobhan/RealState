@@ -15,8 +15,8 @@ function App() {
       <GlobalStyles />
         <Routes>
           <Route element={<AppLayoot />}>
-            <Route index element={<Navigate replace to="homePage" />} />
-            <Route path="homePage" element={<HomePage />} />
+            <Route index element={<Navigate replace to="homepage" />} />
+            <Route path="homepage" element={<HomePage />} />
             <Route path="agentList" element={<AgentList />} />
             <Route path="aboutUs" element={<AboutUs />} />
             <Route path="pageList" element={<PageList />} />
